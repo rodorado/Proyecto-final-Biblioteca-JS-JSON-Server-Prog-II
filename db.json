@@ -1,0 +1,92 @@
+{
+  "libros": [
+    {
+      "titulo": "La teoria del todo",
+      "prestado": true,
+      "autor": "Hawkingg",
+      "id": 1
+    },
+    {
+      "titulo": "Romeo  y Julieta",
+      "prestado": true,
+      "autor": "William Shakespeare",
+      "id": 3
+    },
+    {
+      "titulo": "Sobre la relatividad y el tiempo",
+      "prestado": false,
+      "autor": "Hawking",
+      "id": 4
+    },
+    {
+      "titulo": "Harry potter",
+      "prestado": true,
+      "autor": "JK Rowling",
+      "id": 5
+    }
+  ],
+  "alumnos": [
+    {
+      "nombre": "Juani",
+      "legajo": "55594",
+      "id": 4
+    },
+    {
+      "nombre": "Karen García",
+      "legajo": "55579",
+      "id": 7
+    },
+    {
+      "nombre": "Roberto Diaz",
+      "legajo": "47232",
+      "id": 9
+    },
+    {
+      "nombre": "Kim Namjoon",
+      "legajo": "555899",
+      "id": 10
+    },
+    {
+      "nombre": "",
+      "legajo": "",
+      "id": 11
+    }
+  ],
+  "prestamos": [
+    {
+      "alumnoId": "7",
+      "libroId": "4",
+      "fechaEntrega": "17/5/2023",
+      "fechaDevolucion": "17/5/2023",
+      "id": 1
+    },
+    {
+      "alumnoId": "4",
+      "libroId": "1",
+      "fechaEntrega": "18/5/2023",
+      "fechaDevolucion": "18/5/2023",
+      "id": 2
+    },
+    {
+      "alumnoId": "9",
+      "libroId": "5",
+      "fechaEntrega": "18/5/2023",
+      "fechaDevolucion": "",
+      "id": 3
+    },
+    {
+      "alumnoId": "9",
+      "libroId": "3",
+      "fechaEntrega": "22/5/2023",
+      "fechaDevolucion": "",
+      "id": 4
+    },
+    {
+      "alumnoId": "9",
+      "libroId": "1",
+      "fechaEntrega": "22/5/2023",
+      "fechaDevolucion": "",
+      "id": 5
+    }
+  ]
+}

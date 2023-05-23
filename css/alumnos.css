@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+
+*{
+    color: white;
+}
+
+body{
+    background-color: #1b1b1b;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    overflow-x: hidden;
+
+}
+
+#logo{
+    width: 200px;
+    position: relative;
+    bottom: 50px;
+    right: 70px;
+}
+
+h1{
+    font-size: 30px;
+    position: relative;
+    left: 150px;
+    top: 25px;
+}
+h2{
+    font-size: 25px;
+}
+
+input.form-control{
+    width: 250px;
+    position: relative;
+    left: 140px;
+}
+
+#btnMenu{
+    position: relative;
+    left: 700px;
+    bottom: 50px;
+    font-size: 14px;
+    background-color: #5e4485;
+    border: #5e4485;
+}
+
+#btnMenu:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#lista{
+    width: 1200px;
+    height: auto;
+    padding: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: white 1px solid;
+}  
+
+#btnAgregarAlumno{
+    background-color: #5e4485;
+    border: #5e4485;
+ 
+}
+
+#btnAgregarAlumno:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#btnModificarAlumno{
+    
+    background-color: #5e4485;
+    border: #5e4485;
+}
+#btnModificarAlumno:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#btnEditarAlumno{
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 800px;
+    bottom: 30px;
+    }
+    
+#btnBorrarAlumno{
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 900px;
+    bottom: 60px;
+    }

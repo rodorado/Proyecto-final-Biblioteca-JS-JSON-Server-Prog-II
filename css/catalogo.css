@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+
+*{
+    color: white;
+}
+
+body{
+    background-color: #1b1b1b;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    overflow-x: hidden;
+
+}
+
+#logo{
+    width: 200px;
+    position: relative;
+    bottom: 50px;
+    right: 70px;
+}
+
+h1{
+    font-size: 30px;
+    position: relative;
+    left: 150px;
+    top: 25px;
+}
+h2{
+    font-size: 25px;
+}
+
+input.form-control{
+    width: 300px;
+    position: relative;
+    left: 120px;
+}
+
+#btnModificar{
+    
+    background-color: #5e4485;
+    border: #5e4485;
+}
+#btnModificar:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#btnGuardar{
+    background-color:#5e4485 ;
+    border: #5e4485;
+}
+
+#btnGuardar:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#lista{
+  width: 1200px;
+  height: auto;
+  padding: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: white 1px solid;
+  
+}
+
+#btnEditar{
+font-size: 11px;
+display: flex;
+align-items: center;
+position: relative;
+left: 800px;
+}
+
+#btnBorrar{
+
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 900px;
+    bottom: 30px;
+}
+
+#btnMenu{
+    position: relative;
+    left: 700px;
+    bottom: 50px;
+    font-size: 14px;
+    background-color: #5e4485;
+    border: #5e4485;
+}
+
+#btnMenu:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}

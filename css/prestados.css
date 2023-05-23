@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+
+*{
+    color: white;
+}
+
+body{
+    background-color: #1b1b1b;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    overflow-x: hidden;
+
+}
+
+#logo{
+    width: 200px;
+    position: relative;
+    bottom: 50px;
+    right: 70px;
+}
+
+h1{
+    font-size: 30px;
+    position: relative;
+    left: 150px;
+    top: 25px;
+}
+h2{
+    font-size: 25px;
+}
+
+#btnMenu{
+    position: relative;
+    left: 700px;
+    bottom: 50px;
+    font-size: 14px;
+    background-color: #5e4485;
+    border: #5e4485;
+}
+
+#btnMenu:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#lista{
+    width: 1200px;
+    height: auto;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: white 1px solid;
+} 
+
+
+#btnPrestar{
+    background-color: #5e4485;
+    border: #5e4485;
+    position: relative;
+    top: 20px;
+}
+
+#btnPrestar:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#btnDevolver{
+    position: relative;
+    font-size: 13px;
+    
+}
+
+#btnDevolver:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#btnDevuelto{
+    font-size: 13px;
+}
+
+.form-select {
+    display: block;
+    margin: auto;
+  }
+
+  select.form-select {
+    width: 50%;
+  }
+
+  select#sLibros {
+    margin-bottom: 10px;
+  }
+  
+
+  .form-select option {
+    color: black;
+    border: 2px #5e4485;
+  }
+  

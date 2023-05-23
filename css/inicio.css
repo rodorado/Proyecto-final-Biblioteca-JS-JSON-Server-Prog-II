@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+
+*{
+    color: white;
+}
+
+body{
+    background-color: #1b1b1b;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    overflow-x: hidden;
+
+}
+
+#logo{
+    width: 200px;
+    position: relative;
+    bottom: 50px;
+    right: 70px;
+}
+
+h1{
+    font-size: 30px;
+    position: relative;
+    left: 150px;
+    top: 25px;
+}
+h2{
+    font-size: 25px;
+}
+
+li{
+    list-style: none;
+}
+
+.btn-primary{
+    background-color: #5e4485;
+    border: #5e4485;
+}
+
+.btn-primary:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    background-color: none;
+}
+
+#btnInicioPrestar{
+    position: relative;
+    top: 15px;
+}
+
+#btnInicioPrestados{
+    position: relative;
+    top: 30px;
+}
